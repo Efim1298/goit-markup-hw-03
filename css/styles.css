@@ -125,7 +125,6 @@ img {
     align-items: center;
     flex-grow: 1;
     gap: 56px;
-
 }
 
 .menu {
@@ -185,8 +184,8 @@ img {
 }
 
 .hero-title {
-    margin-bottom: 48px;
-    text-align: center;
+    max-width: 496px;
+    margin: 0 auto 48px;
     font-size: 56px;
     line-height: 1.07;
     color: var(--white-color);
@@ -196,7 +195,6 @@ img {
     display: inline-block;
     min-width: 170px;
     padding: 16px 32px;
-    text-align: center;
     font-family: inherit;
     cursor: pointer;
     font-weight: 500;
@@ -209,7 +207,6 @@ img {
     background: var(--accent-color);
     color: var(--white-color);
 }
-
 
 .hero-btn:hover {
     background: var(--ocean-color);
@@ -241,7 +238,6 @@ img {
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
-
 }
 
 .work-item {
@@ -264,7 +260,6 @@ img {
 
 .team-item {
     flex-basis: calc(100% - 72px) / 4;
-
 }
 
 .team-content {
@@ -286,10 +281,9 @@ img {
 
 .port-buttons {
     display: flex;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     justify-content: center;
     gap: 24px;
-
 }
 
 .port-btn {
@@ -307,7 +301,6 @@ img {
     border: 1px solid var(--cornflower-color);
     background: var(--cloud-color);
     color: var(--accent-color);
-
 }
 
 .port-btn:hover,
@@ -334,6 +327,7 @@ img {
     text-align: left;
     padding: 32px 0 32px 16px;
     border: 1px solid var(--cornflower-color);
+    border-top: 0;
 }
 
 

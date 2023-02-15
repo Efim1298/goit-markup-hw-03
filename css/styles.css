@@ -1,0 +1,163 @@
+:root {
+    --primary-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-color: #4D5AE5;
+    --ocean-color: #404BBF;
+    --white-color: #FFF;
+    --cloud-color: #F4F4FD;
+    --cornflower-color: #E7E9FC;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+ul,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color)
+}
+
+.text-logo {
+    color: var(--accent-color);
+}
+
+
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--title-text-color);
+}
+
+h2,
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer {
+    background: var(--title-text-color);
+}
+
+.footer-logo {
+    line-height: 1.17;
+    color: var(--cloud-color);
+}
+
+.footer-text {
+    color: var(--cornflower-color);
+}
+
+
+
+/* _________________Header_________________ */
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--title-text-color)
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--ocean-color);
+}
+
+.email,
+.phone-number {
+    font-size: 16px;
+    line-height: 1.5;
+    color: inherit;
+}
+
+.email:hover,
+.email:focus,
+.phone-number:hover,
+.phone-number:focus {
+    color: var(--ocean-color);
+}
+
+.menu .menu-link.current {
+    color: var(--ocean-color);
+}
+
+
+/* _________________Hero_________________ */
+
+.hero {
+    background: var(--title-text-color);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.hero-btn {
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    background: var(--accent-color);
+    color: var(--white-color);
+}
+
+
+.hero-btn:hover {
+    background: var(--ocean-color);
+}
+
+
+/* _________________Portfolio_________________ */
+
+.port-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    border: 1px solid #E7E9FC;
+    background: var(--cloud-color);
+    color: var(--accent-color);
+
+}
+
+.port-btn:hover,
+.port-btn:focus {
+    border: 1px solid var(--ocean-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    background: var(--ocean-color);
+    color: var(--white-color);
+}
